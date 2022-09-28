@@ -39,6 +39,7 @@ OBJS_KCSAN = \
   $K/uart.o \
   $K/spinlock.o
 
+
 ifdef KCSAN
 OBJS_KCSAN += \
 	$K/kcsan.o
